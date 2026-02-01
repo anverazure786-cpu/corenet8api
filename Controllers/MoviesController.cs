@@ -8,7 +8,7 @@ namespace Rest_API_Project.Controllers // Declares the namespace for the control
 {
     // Defines the API route as "api/Movies" and marks this class as an API controller.
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController] 
     public class MoviesController : ControllerBase // Inherits from ControllerBase, which is suitable for APIs.
     {
         // Dependency injection to access the database context.
