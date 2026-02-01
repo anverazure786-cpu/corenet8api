@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rest API Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30d4e4f1f72b1380895598ffa1b5750f44fa914d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dade4a3806f4be224728a0323196ea8c939ef2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rest API Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rest API Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
