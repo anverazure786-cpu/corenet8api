@@ -1,0 +1,21 @@
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ConnectionStrings__MovieContexApi=Server=db;Database=MovieContextDb;User=sa;Password=123456; 
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "123456"
+      ACCEPT_EULA: "Y"
